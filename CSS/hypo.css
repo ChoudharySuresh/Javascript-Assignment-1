@@ -1,0 +1,57 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    color: wheat;
+    background-color: black;
+    border-radius: 20px;
+}
+#title{
+    color: salmon;
+}
+.container{
+    background-color: whitesmoke;
+    width: 400px;
+    position: relative;
+    left: 35%;
+    margin-top: 100px;
+    padding: 20px 30px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.7) ;
+}
+.container label{
+    display: block;
+    font-weight: bold;
+}
+.input{
+    font-size: 18px;
+    text-align: center;
+    padding: 13px 5px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+}
+.btn{
+    display: block;
+    position: relative;
+    left: 136px;
+    border:none;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    width: 140px;
+    border-radius: 20px;
+    background-color:aquamarine;
+}
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+#output-hypo{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 15px;
+    margin: 10px;
+}
